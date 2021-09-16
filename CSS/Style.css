@@ -4,12 +4,12 @@
     flex-wrap: wrap;
     padding-left: 16%;
 }
-#logoimg
+/* #logoimg
 {
    padding-left: 10%;
    float: right;
    
-}
+} */
 #headerSearchbar
 {
     margin: 3%;
@@ -77,7 +77,7 @@
     width: 60%;
 }
 
-#blog-3
+#AboutUs
 {
     font-family:Arial, Helvetica, sans-serif;
     padding-top: 5%;
@@ -97,6 +97,10 @@
 {
     padding:1%;
 }
+#aboutus-babyImg
+{
+    padding-top: 10%;
+}
 #babyImg
 {
     border:solid gainsboro 10px;
@@ -109,6 +113,96 @@
     width: 60%;
     height: 40px;
     color: white;
+}
+#vitalWorks-text
+{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    text-align: center;
+    color: white;
+}
+#VitalWorkTooltip-img
+{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    padding-left: 20%; 
+    float: right; 
+    color: white;
+}
+#vitalWorkText-STEP
+{
+    position: absolute;
+    left:23%;
+    top: 46%;
+    color: white;
+}
+#vitalWorks-NumberInCircle
+{
+    position: absolute;
+    left:23.3%;
+    top: 52.5%; 
+    color: yellowgreen;
+    font-size: 2em;
+    font-weight: bold;
+}
+#vitalWorks-Label
+{
+    background-color: white;
+    height: 50px;
+    border: yellowgreen solid;
+    width: 600px;
+    text-align: center;
+    padding-top: 1.5%;
+}
+#lorumBg-img
+{
+    height: 600px;
+}
+#LoremText1
+{
+    position: absolute;
+    top: 20px;
+    left: 15%;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#LoremIcon-img
+{
+    position: absolute; 
+    top: 20%;
+    left: 15px; 
+    margin-left: 20%;
+    margin-top: 2%;
+    height: 60%;
+    width: 60%;
+}
+#vitalClient-Crausel
+{
+    position: absolute;top: 30px;;left: 38%;text-align: center;color: white;
+}
+#vitalClientCircle-img
+{
+   
+    position: relative;
+    top: 60px;
+    height:200px;
+    width:52%;
+}
+#VitalClientBaby-img
+{
+    top: 57%;
+    left:0px;
+    position: absolute;
+}
+#vitalClient-text
+{
+    position: absolute;
+    left: 30%;
+    top: 80%;
+    color: white;
+    text-align: center;
 }
 #uprbtm
 {
@@ -129,5 +223,367 @@
     width: 47%;
     /* width: auto; */
    
+
+}
+@media screen and (max-width: 768px)
+{
+#headerSearchbar
+{
+   
+    margin-left: 0%;
+}
+#headerNavbar
+{
+    margin-top: -15%;
+    margin-left: 0%;
+}
+#btn1
+{
+    margin-top: 1%;
+}
+.bnrbtn
+{
+    height: 40%;
+    left: 10%;
+}
+.bnr-text
+{
+    
+    top: 10%;
+    left: 30%;
+    
+}
+#sechead
+{
+   
+    padding-left: 0%;
+    text-align: center;
+}
+#babyImg
+{
+    margin-top: 60px;
+    height: 50%;
+    width: 100%;
+}
+#vitalWorks-text
+{
+
+    top: 2%;
+    left: 10%;
+}
+#VitalWorkTooltip-img > img
+{
+    margin-left: -10%;
+    height: 50px;
+    width: 50px;
+    margin-top: 2%;
+}
+#vitalWorkText-STEP >span
+{
+   
+    margin: -8%;
+    margin-top: -10%;
+
+}
+#vitalWorks-NumberInCircle > span
+{
+    margin: -8%;
+    margin-top: -10%;
+}
+#vitalWorks-Label
+{
+    width: auto;
+    margin-top: 5%;
+    margin-left: -5%;
+}
+
+
+#LoremText1
+{
+   
+    top: 20px;
+    left: 0%;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#whatsLorum
+{
+
+    margin-top: -19px;
+    height: 20px;
+    
+
+}
+#LoremIcon-img
+{
+    top: 26%;
+    height: 70%;
+}
+#whatClientSay-text
+{
+    margin-top: -50px;
+    margin-left: -100px;
+    
+    
+    
+}
+#vitalClientCircle-img
+{
+    margin-top: -27%;
+    height:140px;
+    width:45%;
+   
+}
+#VitalClientBaby-img
+{
+    top: 31%;
+    left:0px;
+    position: absolute;
+    
+    
+
+}
+#vitalClient-text
+{
+    
+    left: 4%;
+    top: 68%;
+    color: white;
+    text-align: center;
+}
+#blogPostUser-img > img
+{
+    height: 200px;
+    width: 200px;
+}
+#uprbtm
+{
+   margin-left: -20%;
+}
+#ftrbtn
+{
+    width: auto;
+}
+}
+@media screen and (max-width: 320px)
+{
+    #header
+    {
+        margin-left: -14%;
+        
+    }
+   
+    #headerSearchbar
+{
+    margin: 0%;
+    margin-left: 20px;
+
+   
+}
+#headerTextBox
+{
+    width: 200px;
+}
+#headerSearchIConImg
+{
+    margin-left: -12%;
+}
+#headerNavbar
+{
+    margin: 3%;
+    margin-left: 100px;
+}
+#bookImg
+{
+    height: 60px;
+    margin-top: 8px;
+}
+#secheadText
+{
+    margin-top: 6px;
+    font-size: 15px;
+}
+.bnr-text
+{
+    margin-left: 2px;
+    font-size: 11px;
+}
+#contactUsBtn
+{
+    font-size: 8px;
+}
+.bnrbtn
+{
+    height: auto;
+    width: auto;
+    font-size: 20px;
+}
+#btn1
+{
+    height:auto;
+    width: auto;
+    margin-top: 18px;
+    
+}
+#download-btn
+{
+    
+    font-size: 10px;
+}
+
+#babyImg
+{
+   margin-top: -10px;
+    height: 100%;
+    width: 100%;
+}
+#vitalWorkBackground-crausel
+{
+    height: 200px;
+    
+}
+#vitalWorks-text
+{
+
+    top: 2%;
+    left: 10%;
+}
+.HowVitalWorks-text
+{
+    font-size: 20px;
+}
+#VitalWorkTooltip-img > img
+{
+    
+    /* margin-left: -80px;
+    margin-top: -50px;
+    height: 20px;
+    width: 20px; */
+    display: none;
+   
+   
+}
+.hyphen
+{
+    display: none;
+    /* font-size: 12px; */
+}
+#vitalWorkText-STEP >span
+{
+    display: none;
+   
+     /* margin: -8%;
+    margin-top: -10%; */
+
+}
+#vitalWorks-NumberInCircle > span
+{
+    /* margin: -8%;
+    margin-top: -10%; */
+    display: none;
+}
+#vitalWorks-Label
+{
+    /* width: auto;
+    margin-top: 5%;
+    margin-left: -5%; */
+    display: none;
+}
+#LoremText1
+{
+    font-size: 10px;
+    text-align: center;
+}
+#LoremIcon-img
+{
+    top: 14%;
+    margin-left: 20%;
+    left: 0%;
+    height: 80%;
+   
+    /* position: absolute; 
+    top: 20%;
+    left: 15px; 
+    margin-left: 20%;
+    margin-top: 2%;
+    height: 60%;
+    width: 60%; */
+}
+#whatsLorumFemaleIcon-img
+{
+    /* margin-top: -15px; */
+    height: 40px;
+    margin-top: -12px;
+}
+#whatsLorumInner-head
+{
+    font-size: 20px;
+}
+
+#whatsLorumInner-text
+{
+    font-size: 10px;
+}
+#whatsLorumMaleIcon-img
+{
+    height: 40px;
+    margin-top: -12px;
+}
+#WhatsClientSay-Crausel
+{
+    height: 350px;
+}
+#whatClientSay-text
+{
+    font-size: 30px;
+}
+#vitalClientCircle-img
+{
+   
+    margin-left: -100px;
+    height: 100px;
+    
+}
+#VitalClientBaby-img
+{
+    height: 20px;
+    width: 190px;
+    margin-left: -50px;
+    margin-top: 19px;
+ 
+}
+#vitalClient-text
+{
+    margin-top: -30px;
+    font-size: 10px;
+}
+#User2-img
+{
+    margin-top: 10%;
+}
+#User3-img
+{
+    margin-top: 10%;
+}
+#uprbtm
+{
+    margin-top: 20%;
+}
+#bookImg2
+{
+    margin-left: -30px;
+    height: 60px;
+    margin-top: 5px;
+}
+#simplyDumy-text
+{
+    margin-top: 6px;
+    font-size: 15px;
+    text-align: center;
+}
+#footerLogo-img
+{
+    width: 200px;
+}
 
 }
